@@ -10,7 +10,7 @@ app.get('/users', function(req,res){
     res.json({
         success : true,
         message: 'succesfully got users.',
-        users: mockUserData,
+        users: mockUserData
         
     })
 })
